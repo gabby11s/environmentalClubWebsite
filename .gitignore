@@ -6,6 +6,23 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
+# MySQL and PHP folders
+mysql-9.6.0-winx64/
+PHP/
+database.sql
+
+# WordPress - ignore everything except specific wp-content items
+wordpress/*
+!wordpress/wp-content/
+wordpress/wp-content/*
+!wordpress/wp-content/index.php
+!wordpress/wp-content/plugins/
+!wordpress/wp-content/themes/
+wordpress/wp-content/themes/*
+!wordpress/wp-content/themes/index.php
+!wordpress/wp-content/themes/eco-landscaping/
+!wordpress/wp-content/themes/nature-bliss/
+
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
@@ -137,3 +154,4 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
